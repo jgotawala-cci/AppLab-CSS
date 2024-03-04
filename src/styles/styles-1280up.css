@@ -1,0 +1,9 @@
+@media (min-width: 1281px) {
+  .desktop-header > nav {
+    gap: 43px;
+  }
+
+  .desktop-header > button {
+    margin-right: 215px;
+  }
+}

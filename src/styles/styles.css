@@ -1,0 +1,147 @@
+:root {
+  --white: #fff;
+  --primary: #242f51;
+  --secondary: #616368;
+  --header-background: #09142e;
+  --button-background: #2500f9;
+  --button-background-hover: #2500f9aa;
+  --border: #e2eaed;
+
+  --spacing: 26px;
+
+  --transition-delay: 0.5s;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("./fonts/Poppins-SemiBold.ttf");
+}
+
+/* common */
+.container {
+  margin: 0 var(--spacing);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* Elements */
+
+body {
+  background-color: var(--white);
+  margin: 0;
+  color: var(--primary);
+  font-family: "Poppins-Regular";
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 2;
+}
+
+header {
+  background-color: var(--header-background);
+  line-height: 0;
+}
+
+img {
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 2.75;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+button {
+  font-family: "Poppins-Bold";
+  font-size: 16px;
+  line-height: 2.75;
+  letter-spacing: 0;
+  color: var(--white);
+  border-radius: 50px;
+  background-color: var(--button-background);
+  border: 0;
+  padding: 6px 40px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--button-background-hover);
+}
+
+/* header styles */
+.main-header > img {
+  width: 118px;
+  height: 44px;
+  margin: 16px 0 20px;
+}
+
+.main-header > a {
+  line-height: 0;
+}
+
+.main-header > a > img {
+  width: 22px;
+  height: 16px;
+  margin-top: 30px;
+  float: right;
+  transition: var(--transition-delay);
+}
+
+.main-header > a > img.active {
+  width: 16.16px;
+  height: 16.5px;
+  margin-top: 28px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  background-color: var(--header-background);
+  overflow: hidden;
+  transition: var(--transition-delay);
+  text-align: center;
+  border-top: 2px solid var(--border);
+  margin-top: 80px;
+}
+
+.overlay nav a {
+  display: block;
+  margin-top: 20px;
+}
+
+.overlay nav a:first-child {
+  margin-top: 32px;
+}
+
+.overlay nav a:hover {
+  font-family: "Poppins-Bold";
+}
+
+.overlay > button {
+  margin-top: 32px;
+}
+
+.desktop-header {
+  display: none;
+}

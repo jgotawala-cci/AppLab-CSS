@@ -1,0 +1,36 @@
+@media (min-width: 769px) {
+  .main-header {
+    display: none;
+  }
+
+  /* common */
+  .container {
+    margin: 0;
+  }
+
+  /* Elements */
+  header {
+    background-color: transparent;
+    line-height: 0;
+  }
+
+  /* header styles */
+  .desktop-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .desktop-header > nav {
+    display: flex;
+    gap: 23px;
+    margin-top: 97px;
+  }
+
+  .desktop-header > nav > a {
+    color: var(--primary);
+  }
+
+  .desktop-header > button {
+    margin: 90px 125px 0 33px;
+  }
+}
