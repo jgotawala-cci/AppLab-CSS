@@ -2,8 +2,20 @@
   .desktop-header > nav {
     gap: 33px;
   }
-
   .desktop-header > button {
     margin-right: 170px;
+  }
+
+  /* banner style */
+  .banner-container {
+    gap: 75px;
+  }
+  .building-bg {
+    width: 1400px;
+  }
+  .circle-bg-container {
+    width: 1023px;
+    height: 768px;
+    left: 293px;
   }
 }

@@ -19,18 +19,70 @@
     display: flex;
     justify-content: flex-end;
   }
-
   .desktop-header > nav {
     display: flex;
     gap: 23px;
     margin-top: 97px;
   }
-
   .desktop-header > nav > a {
     color: var(--primary);
   }
-
   .desktop-header > button {
     margin: 90px 125px 0 33px;
+  }
+
+  /* banner style */
+  .banner-container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+  }
+  .banner-left-middle-wrapper,
+  .banner-right-middle-wrapper,
+  .banner-left-top-wrapper,
+  .banner-right-wrapper {
+    margin: 0;
+  }
+  .banner-left-top-wrapper {
+    margin-top: 261px;
+    margin-left: 25px;
+  }
+  .banner-left-middle-wrapper {
+    margin-left: 25px;
+  }
+  .banner-left-middle-wrapper > button {
+    display: inline-block;
+    margin-top: 45px;
+  }
+  .banner-left-middle-wrapper > h1 {
+    margin-top: 13px;
+  }
+  .banner-left-middle-wrapper > p {
+    margin-top: 23px;
+  }
+  .banner-left-middle-wrapper > h1 > span,
+  .banner-left-middle-wrapper > p > span {
+    display: inline;
+  }
+  .banner-right-wrapper > img {
+    height: 812px;
+    width: 443px;
+    margin-top: 23px;
+  }
+  .banner-right-wrapper > button {
+    display: none;
+  }
+  .building-bg {
+    width: 1100px;
+  }
+  .cross-bg {
+    display: inline;
+    top: 58px;
+  }
+  .circle-bg-container {
+    width: 822px;
+    height: 614px;
+    left: 235px;
+    top: -30px;
   }
 }
