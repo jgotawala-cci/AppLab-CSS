@@ -1,4 +1,13 @@
 @media (min-width: 1025px) {
+  :root {
+    --container-width: 900px;
+  }
+
+  .feature-item {
+    margin-top: 47px;
+  }
+
+  /* Header style */
   .desktop-header > nav {
     gap: 33px;
   }
@@ -25,5 +34,21 @@
   /* Associate company style */
   .grid-container {
     gap: 59px;
+  }
+
+  /* Feature style */
+  .feature-wrapper {
+    margin-top: 97px;
+    gap: 52px;
+  }
+  .figure-top-wrapper > h3 {
+    margin-top: 38px;
+  }
+  .figure-middle-wrapper > img {
+    width: 434px;
+    height: 595px;
+  }
+  .figure-bottom-wrapper {
+    margin-top: 65px;
   }
 }

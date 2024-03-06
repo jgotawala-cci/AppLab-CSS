@@ -1,4 +1,13 @@
 @media (min-width: 1281px) {
+  :root {
+    --container-width: 1102px;
+  }
+
+  .feature-item {
+    margin-top: 57px;
+  }
+
+  /* Header style */
   .desktop-header > nav {
     gap: 43px;
   }
@@ -17,5 +26,21 @@
     width: 1153px;
     height: 865px;
     left: 330px;
+  }
+
+  /* Feature style */
+  .feature-wrapper {
+    margin-top: 127px;
+    gap: 67px;
+  }
+  .figure-top-wrapper > h3 {
+    margin-top: 48px;
+  }
+  .figure-middle-wrapper > img {
+    width: 610px;
+    height: 839px;
+  }
+  .figure-bottom-wrapper {
+    margin-top: 85px;
   }
 }
