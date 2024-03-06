@@ -1,5 +1,13 @@
 <template>
-  <div class="feature-item">
+  <div
+    class="feature-item"
+    :class="{
+      'is-small': props.isSmall,
+      column: props.column,
+      'text-center': props.textCenter,
+      'text-left': props.textLeft,
+    }"
+  >
     <figure>
       <img
         :style="img_background"
@@ -19,7 +27,15 @@
 <script setup lang="ts">
 import { defineProps, ref } from "vue";
 
-const props = defineProps(["feature", "isSmall", "addMargin", "centerAlign"]);
+const props = defineProps([
+  "feature",
+  "isSmall",
+  "addMargin",
+  "centerAlign",
+  "column",
+  "textCenter",
+  "textLeft",
+]);
 const img_background = ref({ "background-color": props.feature.color });
 const font_color = ref({ color: props.feature.fontColor });
 </script>

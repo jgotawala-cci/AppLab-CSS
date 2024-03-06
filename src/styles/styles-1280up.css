@@ -3,8 +3,12 @@
     --container-width: 1102px;
   }
 
-  .feature-item {
+  /*common*/
+  .feature-item.is-small {
     margin-top: 57px;
+  }
+  .desktop-grid {
+    gap: 95px;
   }
 
   /* Header style */
@@ -42,5 +46,19 @@
   }
   .figure-bottom-wrapper {
     margin-top: 85px;
+  }
+
+  /* Benifits style */
+  .benifit-title-wrapper {
+    margin: 0 95px;
+    margin-top: 108px;
+  }
+  .benifit-title-wrapper > div {
+    margin: 0 42px;
+    margin-top: 7px;
+  }
+  .benifits-wrapper > div {
+    margin: 0 63px;
+    margin-top: 116px;
   }
 }
