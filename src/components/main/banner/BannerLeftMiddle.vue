@@ -1,5 +1,5 @@
 <template>
-  <section class="banner-left-middle-wrapper">
+  <section class="banner-left-middle-wrapper container">
     <h1>
       Best app for your <span><br /></span>modern lifestyle
     </h1>

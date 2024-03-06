@@ -12,6 +12,7 @@
   header {
     background-color: transparent;
     line-height: 0;
+    position: static;
   }
 
   /* header styles */
@@ -36,6 +37,7 @@
     display: flex;
     justify-content: center;
     gap: 45px;
+    padding: 0;
   }
   .banner-left-middle-wrapper,
   .banner-right-middle-wrapper,

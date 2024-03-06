@@ -8,7 +8,7 @@
   --border: #e2eaed;
   --badge-background: #feaa25;
 
-  --spacing: 26px;
+  --spacing: 25px;
 
   --transition-delay: 0.5s;
 }
@@ -47,6 +47,9 @@ body {
 header {
   background-color: var(--header-background);
   line-height: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 }
 img {
   object-fit: contain;
@@ -131,6 +134,7 @@ p {
   text-align: center;
   border-top: 2px solid var(--border);
   margin-top: 80px;
+  z-index: 99;
 }
 .overlay nav a {
   display: block;
@@ -156,7 +160,6 @@ p {
   background-color: var(--border);
   border-radius: 50px;
   margin-top: 27px;
-  margin-left: 25px;
 }
 .banner-left-top-wrapper > img {
   width: 25px;
@@ -170,9 +173,6 @@ p {
   font-size: 12px;
   margin-left: 5px;
   margin-right: 10px;
-}
-.banner-left-middle-wrapper {
-  margin: 0 25px;
 }
 .banner-left-middle-wrapper > h1 {
   margin-top: 8px;
@@ -198,6 +198,7 @@ p {
 .banner-container {
   position: relative;
   overflow: hidden;
+  padding-top: 80px;
 }
 .building-bg {
   width: 1600px;
@@ -215,7 +216,7 @@ p {
   height: 605px;
   position: absolute;
   left: 50px;
-  top: 187px;
+  top: 277px;
   z-index: -2;
 }
 .circle-bg {
@@ -241,7 +242,7 @@ p {
   margin-top: 70px;
 }
 .grid-container {
-  margin: 30px 25px 0;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(
     auto-fill,
