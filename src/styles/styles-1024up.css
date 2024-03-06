@@ -7,6 +7,9 @@
   }
 
   /* banner style */
+  .banner-left-top-wrapper {
+    margin-top: 261px;
+  }
   .banner-container {
     gap: 75px;
   }
@@ -17,5 +20,10 @@
     width: 1023px;
     height: 768px;
     left: 293px;
+  }
+
+  /* Associate company style */
+  .grid-container {
+    gap: 59px;
   }
 }

@@ -44,8 +44,19 @@
     margin: 0;
   }
   .banner-left-top-wrapper {
-    margin-top: 261px;
+    margin-top: 121px;
     margin-left: 25px;
+  }
+  .banner-left-top-wrapper > img {
+    width: 37px;
+    height: 37px;
+    padding: 9px;
+  }
+  .banner-left-top-wrapper > span {
+    font-size: 18px;
+    line-height: 1.55;
+    margin-left: 7px;
+    margin-right: 12px;
   }
   .banner-left-middle-wrapper {
     margin-left: 25px;
@@ -55,9 +66,13 @@
     margin-top: 45px;
   }
   .banner-left-middle-wrapper > h1 {
+    font-size: 60px;
+    line-height: 1.25;
     margin-top: 13px;
   }
   .banner-left-middle-wrapper > p {
+    font-size: 18px;
+    line-height: 1.55;
     margin-top: 23px;
   }
   .banner-left-middle-wrapper > h1 > span,
@@ -84,5 +99,29 @@
     height: 614px;
     left: 235px;
     top: -30px;
+  }
+
+  /* Associate company style */
+  .companies-container > h6 {
+    margin-top: 115px;
+  }
+}
+
+@media (min-width: 860px) {
+  .grid-container img:nth-child(5) {
+    grid-column: 5;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(5, minmax(151px, 1fr));
+    max-width: 1000px;
+    margin: 30px auto 0;
+  }
+
+  .grid-container img {
+    width: 154px;
+    height: 84px;
   }
 }

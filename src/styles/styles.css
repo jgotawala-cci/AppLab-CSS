@@ -35,7 +35,6 @@
 }
 
 /* Elements */
-
 body {
   background-color: var(--white);
   margin: 0;
@@ -83,6 +82,12 @@ h1 {
   font-weight: 600;
   letter-spacing: 0;
   line-height: 1.26;
+  margin: 0;
+}
+h6 {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  line-height: 1.75;
   margin: 0;
 }
 p {
@@ -226,4 +231,41 @@ p {
   left: 0;
   top: 0;
   z-index: -1;
+}
+
+/* Associate company style */
+.companies-container {
+  text-align: center;
+}
+.companies-container > h6 {
+  margin-top: 70px;
+}
+.grid-container {
+  margin: 30px 25px 0;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(147px, 1fr)
+  ); /* Responsive columns */
+  gap: 20px;
+}
+.grid-container img {
+  width: 147px;
+  height: 81px;
+  justify-self: center;
+}
+.grid-container img:nth-child(5) {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 509px) {
+  .grid-container img:nth-child(5) {
+    grid-column: 2;
+  }
+}
+
+@media (min-width: 669px) {
+  .grid-container img:nth-child(5) {
+    grid-column: 1/-1;
+  }
 }
