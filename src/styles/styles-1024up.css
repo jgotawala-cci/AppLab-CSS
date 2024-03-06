@@ -69,4 +69,20 @@
     margin: 0 48px;
     margin-top: 96px;
   }
+
+  /* Design info style */
+  .design-info-wrapper {
+    margin-top: 90px;
+  }
+  .design-info-left > img {
+    height: 390px;
+    width: 424px;
+    margin-right: 90px;
+  }
+  .design-info-right > button {
+    margin-top: 35px;
+  }
+  .design-info-right > p {
+    margin-top: 20px;
+  }
 }

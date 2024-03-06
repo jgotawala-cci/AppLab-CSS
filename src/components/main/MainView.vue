@@ -3,6 +3,7 @@
   <company-view />
   <feature-view class="container" />
   <benifits-view class="container" />
+  <design-info-view class="container" />
 </template>
 
 <script setup lang="ts">
@@ -10,4 +11,5 @@ import BannerView from "./banner/BannerView.vue";
 import CompanyView from "./companies/CompanyView.vue";
 import FeatureView from "./feature/FeatureView.vue";
 import BenifitsView from "./benifits/BenifitsView.vue";
+import DesignInfoView from "./design-info/DesignInfoView.vue";
 </script>

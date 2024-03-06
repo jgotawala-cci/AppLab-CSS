@@ -272,6 +272,10 @@ p {
   margin: 0 26px;
   text-align: center;
 }
+.banner-right-wrapper > img {
+  width: 322.64px;
+  height: 591.39px;
+}
 .banner-right-wrapper > button {
   margin: -17px;
   margin-bottom: 24px;
@@ -392,4 +396,30 @@ p {
 .benifit-title-wrapper > p {
   font-size: 13px;
   line-height: 2;
+}
+
+/* Design info style */
+.design-info-right {
+  margin-top: 70px;
+}
+.design-info-right > p {
+  font-size: 13px;
+  line-height: 1.46;
+  margin-top: 5px;
+}
+.design-info-right > button {
+  display: none;
+}
+.design-info-left {
+  text-align: center;
+}
+.design-info-left > img {
+  width: 324.69px;
+  height: 297px;
+}
+.design-info-left > img,
+.design-info-left > button {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
 }
