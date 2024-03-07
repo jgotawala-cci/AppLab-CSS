@@ -77,4 +77,16 @@
   .design-info-right > p {
     margin-top: 30px;
   }
+
+  /* Choose app style */
+  .choose-app-wrapper {
+    margin-top: 75px;
+    padding-top: 140px;
+  }
+  .choose-app-wrapper > div {
+    margin-top: 95px;
+  }
+  .choose-app-title > p {
+    margin-top: 35px;
+  }
 }

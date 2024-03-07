@@ -8,16 +8,12 @@
       'text-left': props.textLeft,
     }"
   >
-    <figure>
-      <img
-        :style="img_background"
-        :src="props.feature.img"
-        :class="{ 'is-small': props.isSmall }"
-      />
+    <figure :style="img_background" :class="{ 'is-small': props.isSmall }">
+      <img :src="props.feature.img" :class="{ 'is-small': props.isSmall }" />
     </figure>
     <figcaption :class="{ 'add-margin': props.addMargin }">
       <h4 :style="font_color">{{ props.feature.title }}</h4>
-      <p>
+      <p :class="{ 'is-small': props.isSmall }">
         {{ props.feature.subTitle }}
       </p>
     </figcaption>

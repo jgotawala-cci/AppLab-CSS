@@ -55,25 +55,35 @@
   flex-direction: column;
 }
 .feature-item.text-center {
+  align-items: center;
   text-align: center;
 }
 .feature-item.text-left {
+  align-items: flex-start;
   text-align: left;
 }
 .feature-item > figure {
-  margin: 0;
-}
-.feature-item > figure > img {
   width: 88px;
   height: 88px;
+  border-radius: 50%;
+  margin: 0;
+  margin-top: 5px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.feature-item > figure > img {
+  width: inherit;
+  height: inherit;
   padding: 15px;
   box-sizing: border-box;
-  margin-top: 5px;
-  border-radius: 50%;
 }
-.feature-item > figure > img.is-small {
+.feature-item > figure.is-small {
   width: 78px;
   height: 78px;
+}
+.feature-item > figure > img.is-small {
+  width: inherit;
+  height: inherit;
 }
 .feature-item > figcaption {
   display: flex;
@@ -84,11 +94,14 @@
   margin-left: 21px;
 }
 .feature-item > figcaption > p {
-  font-size: 13px;
-  line-height: 1.46;
+  margin-top: 5px;
+}
+.feature-item > figcaption > p.is-small {
+  margin-top: 7px;
 }
 .desktop-grid {
   display: block;
+  margin-top: 30px;
 }
 
 /* Elements */
@@ -177,7 +190,7 @@ h6 {
 p {
   margin: 0;
   color: var(--secondary);
-  font-size: 12px;
+  font-size: 13px;
   letter-spacing: 0;
   line-height: 1.46;
 }
@@ -259,6 +272,7 @@ p {
   margin-top: 8px;
 }
 .banner-left-middle-wrapper > p {
+  font-size: 12px;
   margin-top: 14px;
 }
 .banner-left-middle-wrapper > h1 > span,
@@ -367,8 +381,6 @@ p {
   margin-top: 60px;
 }
 .figure-top-wrapper > p {
-  font-size: 13px;
-  line-height: 1.46;
   margin-top: 5px;
 }
 .figure-middle-wrapper {
@@ -394,7 +406,6 @@ p {
   margin: 20px 0;
 }
 .benifit-title-wrapper > p {
-  font-size: 13px;
   line-height: 2;
 }
 
@@ -403,8 +414,6 @@ p {
   margin-top: 70px;
 }
 .design-info-right > p {
-  font-size: 13px;
-  line-height: 1.46;
   margin-top: 5px;
 }
 .design-info-right > button {
@@ -422,4 +431,22 @@ p {
   display: block;
   margin: auto;
   margin-top: 25px;
+}
+
+/* Choose app style */
+.choose-app-wrapper {
+  margin-top: 70px;
+  text-align: center;
+}
+.choose-app-title > p {
+  margin-top: 15px;
+}
+.choose-app-title > p > span {
+  display: none;
+}
+
+@media (min-width: 513px) {
+  .choose-app-title > p > span {
+    display: inline;
+  }
 }
