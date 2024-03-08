@@ -1,12 +1,13 @@
 <template>
-  <section class="banner-left-middle-wrapper container">
+  <section class="banner-left-middle-wrapper">
     <h1>
-      Best app for your <span><br /></span>modern lifestyle
+      Best app for your <span class="desktop-view"><br /></span>modern lifestyle
     </h1>
     <p>
-      Increase productivity with a simple to-do app. app <span><br /></span>for
-      managing your personal budgets.
+      Increase productivity with a simple to-do app. app
+      <span class="desktop-view"><br /></span>for managing your personal
+      budgets.
     </p>
-    <button>Try for free</button>
+    <button class="desktop-view">Try for free</button>
   </section>
 </template>

@@ -5,6 +5,6 @@
       The rise of mobile devices transforms the way we consume information
       entirely and the world's most elegant channels such as Facebook.
     </p>
-    <button>Learn more</button>
+    <button class="desktop-view">Learn more</button>
   </section>
 </template>

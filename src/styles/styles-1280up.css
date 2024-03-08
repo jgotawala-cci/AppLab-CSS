@@ -1,6 +1,6 @@
 @media (min-width: 1281px) {
   :root {
-    --container-width: 1102px;
+    --container-width: 1200px;
   }
 
   /*common*/
@@ -9,57 +9,94 @@
   }
   .desktop-grid {
     gap: 95px;
+    grid-row-gap: 70px;
   }
 
   /* Header style */
   .desktop-header > nav {
-    gap: 43px;
+    gap: 39px;
+    margin-top: 87px;
   }
   .desktop-header > button {
-    margin-right: 215px;
+    margin: 81px 0 0 30px;
   }
 
   /* banner style */
-  .banner-container {
+  .banner-container > div {
     gap: 105px;
   }
-  .building-bg {
-    width: 1600px;
+  .banner-right-wrapper > img {
+    width: 398px;
+    height: 730px;
+    margin-top: 38px;
   }
-  .circle-bg-container {
-    width: 1153px;
-    height: 865px;
-    left: 330px;
+  .banner-left-top-wrapper {
+    margin-top: 208px;
+  }
+  .banner-left-middle-wrapper > button {
+    margin-top: 40px;
+  }
+  .banner-left-middle-wrapper > h1 {
+    margin-top: 11px;
+  }
+  .banner-left-middle-wrapper > p {
+    margin-top: 20px;
+  }
+  .circle-bg {
+    width: 1037px;
+    height: 778px;
+    top: -18px;
+    right: 99px;
+  }
+  .cross-bg {
+    height: 567px;
+    width: 709px;
+    top: 52px;
+  }
+
+  /* Associate company style */
+  .companies-container > h6 {
+    margin-top: 103px;
+  }
+  .grid-container {
+    gap: 53px;
+    margin-top: 27px;
   }
 
   /* Feature style */
   .feature-wrapper {
-    margin-top: 127px;
-    gap: 67px;
+    margin-top: 114px;
+    gap: 60px;
   }
   .figure-top-wrapper > h3 {
-    margin-top: 48px;
+    margin-top: 43px;
+    margin-right: 240px;
+  }
+  .figure-top-wrapper > p {
+    margin-top: 15px;
+    margin-right: 115px;
   }
   .figure-middle-wrapper > img {
-    width: 610px;
-    height: 839px;
+    width: 549px;
+    height: 755px;
   }
   .figure-bottom-wrapper {
-    margin-top: 85px;
+    margin-top: 76px;
+    margin-right: 115px;
   }
 
   /* Benifits style */
   .benifit-title-wrapper {
-    margin: 0 95px;
-    margin-top: 108px;
+    margin: 0 113px;
+    margin-top: 97px;
   }
   .benifit-title-wrapper > div {
-    margin: 0 42px;
+    margin: 0 37px;
     margin-top: 7px;
   }
   .benifits-wrapper > div {
-    margin: 0 63px;
-    margin-top: 116px;
+    margin: 0 78px;
+    margin-top: 104px;
   }
 
   /* Design info style */
@@ -80,13 +117,45 @@
 
   /* Choose app style */
   .choose-app-wrapper {
-    margin-top: 75px;
-    padding-top: 140px;
+    margin-top: 67px;
+    padding-top: 126px;
   }
   .choose-app-wrapper > div {
-    margin-top: 95px;
+    margin-top: 85px;
   }
   .choose-app-title > p {
-    margin-top: 35px;
+    margin-top: 31px;
+  }
+  .choose-app-wrapper .desktop-grid p {
+    margin-top: 13.5px;
+  }
+
+  /* Ultimate Feature style */
+  .ultimate-feature-container {
+    margin-top: 171px;
+  }
+  .ultimate-feature-middle,
+  .ultimate-feature-top > p {
+    margin-top: 27px;
+  }
+  .ultimate-feature-middle > img {
+    width: 677px;
+    height: 722px;
+    right: -140px;
+  }
+  .ultimate-desktop-grid {
+    gap: 94px;
+    grid-row-gap: 54px;
+    margin-top: 50px;
+  }
+  .ultimate-desktop-grid h4 {
+    margin-top: 31px;
+  }
+  .ultimate-desktop-grid p {
+    margin-top: 13.5px !important;
+  }
+  .ultimate-desktop-grid + button {
+    margin-top: 49px;
+    padding: 6px 52px;
   }
 }

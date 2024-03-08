@@ -1,6 +1,6 @@
 @media (min-width: 1025px) {
   :root {
-    --container-width: 900px;
+    --container-width: 960px;
   }
 
   /*common*/
@@ -9,64 +9,98 @@
   }
   .desktop-grid {
     gap: 70px;
+    grid-row-gap: 55px;
   }
 
   /* Header style */
   .desktop-header > nav {
-    gap: 33px;
+    gap: 27px;
+    margin-top: 77px;
   }
   .desktop-header > button {
-    margin-right: 170px;
+    margin: 72px 0 0 26px;
   }
 
   /* banner style */
-  .banner-left-top-wrapper {
-    margin-top: 261px;
-  }
-  .banner-container {
+  .banner-container > div {
     gap: 75px;
   }
-  .building-bg {
-    width: 1400px;
+  .banner-right-wrapper > img {
+    width: 354px;
+    height: 649px;
+    margin-top: 34px;
   }
-  .circle-bg-container {
-    width: 1023px;
-    height: 768px;
-    left: 293px;
+  .banner-left-top-wrapper {
+    margin-top: 100px;
+  }
+  .banner-left-middle-wrapper > button {
+    margin-top: 36px;
+  }
+  .banner-left-middle-wrapper > h1 {
+    margin-top: 10px;
+  }
+  .banner-left-middle-wrapper > p {
+    margin-top: 18px;
+  }
+  .circle-bg {
+    width: 922px;
+    height: 692px;
+    top: -16px;
+    right: 88px;
+  }
+  .cross-bg {
+    height: 504px;
+    width: 630px;
+    top: 46px;
   }
 
   /* Associate company style */
+  .companies-container > h6 {
+    margin-top: 92px;
+  }
   .grid-container {
-    gap: 59px;
+    grid-template-columns: repeat(5, minmax(151px, 1fr));
+    gap: 47px;
+    margin-top: 24px;
+  }
+  .grid-container img:nth-child(5) {
+    grid-column: 5;
   }
 
   /* Feature style */
   .feature-wrapper {
-    margin-top: 97px;
-    gap: 52px;
+    margin-top: 101px;
+    justify-content: flex-end;
+    gap: 48px;
   }
   .figure-top-wrapper > h3 {
     margin-top: 38px;
+    margin-right: 192px;
+  }
+  .figure-top-wrapper > p {
+    margin-top: 13.5px;
+    margin-right: 92px;
   }
   .figure-middle-wrapper > img {
-    width: 434px;
-    height: 595px;
+    width: 488px;
+    height: 671px;
   }
   .figure-bottom-wrapper {
-    margin-top: 65px;
+    margin-top: 68px;
+    margin-right: 92px;
   }
 
   /* Benifits style */
   .benifit-title-wrapper {
-    margin: 0 70px;
+    margin: 0 100px;
     margin-top: 83px;
   }
   .benifit-title-wrapper > div {
-    margin: 0 30px;
+    margin: 0 33px;
     margin-top: 5px;
   }
   .benifits-wrapper > div {
-    margin: 0 48px;
+    margin: 0 69px;
     margin-top: 96px;
   }
 
@@ -89,12 +123,44 @@
   /* Choose app style */
   .choose-app-wrapper {
     margin-top: 60px;
-    padding-top: 100px;
+    padding-top: 112px;
   }
   .choose-app-wrapper > div {
-    margin-top: 70px;
+    margin-top: 76px;
   }
   .choose-app-title > p {
-    margin-top: 25px;
+    margin-top: 28px;
+  }
+  .choose-app-wrapper .desktop-grid p {
+    margin-top: 12px;
+  }
+
+  /* Ultimate Feature style */
+  .ultimate-feature-container {
+    margin-top: 152px;
+  }
+  .ultimate-feature-middle,
+  .ultimate-feature-top > p {
+    margin-top: 24px;
+  }
+  .ultimate-feature-middle > img {
+    width: 602px;
+    height: 642px;
+    right: -124px;
+  }
+  .ultimate-desktop-grid {
+    gap: 84px;
+    grid-row-gap: 48px;
+    margin-top: 44px;
+  }
+  .ultimate-desktop-grid h4 {
+    margin-top: 28px;
+  }
+  .ultimate-desktop-grid p {
+    margin-top: 12px !important;
+  }
+  .ultimate-desktop-grid + button {
+    margin-top: 44px;
+    padding: 4.5px 46px;
   }
 }

@@ -16,7 +16,6 @@
 <script setup lang="ts">
 import ChooseAppTitle from "./ChooseAppTitle.vue";
 import FeatureItem from "../../common/FeatureItem.vue";
-import { onBeforeUnmount, onMounted, ref } from "vue";
 
 const reasons = [
   {
@@ -62,16 +61,4 @@ const reasons = [
       "Get your blood tests delivered at home collect a sample from the news your blood tests.",
   },
 ];
-
-const isMobile = ref(window.innerWidth <= 768);
-const handleResize = () => {
-  isMobile.value = window.innerWidth <= 768; // Adjust the threshold as needed
-};
-onMounted(() => {
-  window.addEventListener("resize", handleResize);
-});
-
-onBeforeUnmount(() => {
-  window.removeEventListener("resize", handleResize);
-});
 </script>

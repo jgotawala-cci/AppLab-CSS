@@ -5,6 +5,7 @@
   <benifits-view class="container" />
   <design-info-view class="container" />
   <choose-app-view />
+  <ultimate-feature-view class="container" />
 </template>
 
 <script setup lang="ts">
@@ -14,4 +15,5 @@ import FeatureView from "./feature/FeatureView.vue";
 import BenifitsView from "./benifits/BenifitsView.vue";
 import DesignInfoView from "./design-info/DesignInfoView.vue";
 import ChooseAppView from "./choose-app/ChooseAppView.vue";
+import UltimateFeatureView from "./unltimate-feature/UltimateFeatureView.vue";
 </script>
