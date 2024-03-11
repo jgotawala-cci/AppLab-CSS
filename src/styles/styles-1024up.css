@@ -163,4 +163,15 @@
     margin-top: 44px;
     padding: 4.5px 46px;
   }
+
+  /* Pricing styling */
+  .price-title-wrapper {
+    margin-top: 140px;
+  }
+  .price-title-wrapper > p {
+    margin-top: 28px;
+  }
+  .toggle {
+    margin-top: 68px;
+  }
 }

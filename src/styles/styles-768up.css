@@ -9,6 +9,9 @@
     margin: 0 auto;
     width: var(--container-width);
   }
+  .container.center {
+    text-align: center;
+  }
   .mobile-view {
     display: none;
   }
@@ -299,6 +302,84 @@
     align-self: flex-start;
     margin-top: 35px;
     padding: 3px 37px;
+  }
+
+  /* Pricing styling */
+  .price-title-wrapper {
+    margin-top: 112px;
+  }
+  .price-title-wrapper > h3,
+  .price-title-wrapper > p {
+    text-align: center;
+  }
+  .price-title-wrapper > p {
+    margin-top: 22px;
+  }
+  .toggle {
+    display: inline-block;
+    border: 2px solid var(--toggle-border);
+    border-radius: 50px;
+    font-family: "Poppins-Bold";
+    padding: 5px;
+    gap: 0;
+    margin: auto;
+    margin-top: 54px;
+  }
+  .toggle-text {
+    display: inline-block;
+    padding: 3px 41px;
+    border-radius: 50px;
+  }
+  .toggle .inactive-lable {
+    color: var(--secondary);
+  }
+  .toggle-text:hover {
+    cursor: pointer;
+    background-color: var(--secondary);
+    color: var(--white);
+  }
+  .toggle .active-label {
+    background-color: var(--button-background);
+    color: var(--white);
+  }
+  .card-wrapper {
+    margin-top: 40px;
+  }
+  .card-view {
+    display: inline-block;
+    width: 315px;
+    vertical-align: top;
+  }
+  .card-view.border {
+    margin-top: 0;
+    margin-left: 40px;
+  }
+  .card-top {
+    padding: 44px 0;
+  }
+  .card-top > h1 {
+    display: inline-block;
+    margin-right: 0px;
+    font-size: 60px;
+  }
+  .card-top > h4 {
+    margin-top: 6px;
+  }
+  .card-top span {
+    font-size: 18px;
+  }
+  .card-bottom {
+    padding-top: 22px;
+  }
+  .card-bottom span {
+    font-size: 16px;
+    line-height: 3;
+  }
+  .card-bottom button {
+    margin-top: 25px;
+  }
+  .card-bottom a {
+    margin-top: 20px;
   }
 }
 
