@@ -43,6 +43,14 @@
 .desktop-view {
   display: none;
 }
+.companies-container,
+.benifit-title-wrapper,
+.design-info-right,
+.choose-app-wrapper,
+.ultimate-feature-top,
+.price-title-wrapper {
+  margin-top: 70px;
+}
 
 .feature-item {
   display: flex;
@@ -332,9 +340,6 @@ p {
 .companies-container {
   text-align: center;
 }
-.companies-container > h6 {
-  margin-top: 70px;
-}
 .grid-container {
   margin-top: 30px;
   display: grid;
@@ -392,9 +397,6 @@ p {
 }
 
 /* Benifits style */
-.benifit-title-wrapper {
-  margin-top: 70px;
-}
 .benifit-title-wrapper > div {
   width: 45%;
   border-top: 1px solid var(--divider);
@@ -405,9 +407,6 @@ p {
 }
 
 /* Design info style */
-.design-info-right {
-  margin-top: 70px;
-}
 .design-info-right > p {
   margin-top: 5px;
 }
@@ -426,7 +425,6 @@ p {
 
 /* Choose app style */
 .choose-app-wrapper {
-  margin-top: 70px;
   text-align: center;
 }
 .choose-app-title > p {
@@ -438,7 +436,6 @@ p {
 
 /* Ultimate Feature style */
 .ultimate-feature-top {
-  margin-top: 70px;
   text-align: center;
 }
 .ultimate-feature-top > h3 {
@@ -460,9 +457,6 @@ p {
 }
 
 /* Pricing styling */
-.price-title-wrapper {
-  margin-top: 70px;
-}
 .price-title-wrapper > p {
   margin-top: 15px;
 }

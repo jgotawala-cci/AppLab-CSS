@@ -157,7 +157,7 @@
   }
 
   /* Associate company style */
-  .companies-container > h6 {
+  .companies-container {
     margin-top: 73px;
   }
   .grid-container {
