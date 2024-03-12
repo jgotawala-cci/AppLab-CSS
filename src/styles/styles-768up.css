@@ -532,6 +532,31 @@
     margin: 0;
     left: 483px;
     right: 0;
+    z-index: 1;
+  }
+
+  /* Footer Styling */
+  .footer-container {
+    padding-bottom: 64px;
+  }
+  .footer-container > img {
+    margin-top: 73px;
+  }
+  .footer-container > nav {
+    margin-top: 41px;
+  }
+  .footer-container > nav > a {
+    display: inline-block;
+    margin-right: 19px;
+  }
+  .footer-container > nav > a.no-margin {
+    margin-right: 0px;
+  }
+  .soical-media-icons {
+    margin-top: 32px;
+  }
+  .footer-container p {
+    margin-top: 51px;
   }
 }
 

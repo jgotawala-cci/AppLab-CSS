@@ -1,5 +1,6 @@
 :root {
   --white: #fff;
+  --transperent-white: #ffffff88;
   --primary: #242f51;
   --secondary: #616368;
   --header-background: #09142e;
@@ -44,6 +45,10 @@
 }
 .desktop-view {
   display: none;
+}
+.app-icon {
+  width: 118px;
+  height: 44px;
 }
 .companies-container,
 .benifit-title-wrapper,
@@ -137,6 +142,9 @@ header {
   width: 100%;
   z-index: 99;
 }
+footer {
+  background-color: var(--header-background);
+}
 img {
   object-fit: contain;
 }
@@ -219,8 +227,6 @@ p {
 
 /* header styles */
 .main-header > img {
-  width: 118px;
-  height: 44px;
   margin: 16px 0 20px;
 }
 .main-header > a {
@@ -719,6 +725,9 @@ p {
   opacity: 0.8;
   cursor: pointer;
 }
+.background-image {
+  height: 237px;
+}
 .background-image > img {
   width: 100%;
   max-width: 454px;
@@ -729,11 +738,53 @@ p {
   margin: auto;
   margin-top: 15px;
   object-fit: cover;
+  z-index: -1;
+}
+
+/* Footer Styling */
+.footer-container {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 63px;
+}
+.footer-container > img {
+  margin-top: 67px;
+}
+.footer-container > nav {
+  margin-top: 35px;
+}
+.footer-container > nav > a {
+  display: block;
+  color: var(--white);
+}
+.soical-media-icons {
+  margin-top: 64px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.soical-media-icons a img {
+  width: 31px;
+  height: 31px;
+  opacity: 0.5;
+}
+.soical-media-icons a {
+  opacity: 1;
+}
+.soical-media-icons a img:hover {
+  opacity: 1;
+}
+.footer-container p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--transperent-white);
+  margin-top: 50px;
 }
 
 @media (min-width: 454px) {
   .background-image > img {
     width: 454px;
+    line-height: 2.75;
   }
 }
 

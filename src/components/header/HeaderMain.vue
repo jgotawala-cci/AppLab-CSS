@@ -1,6 +1,6 @@
 <template>
   <section class="main-header container mobile-view">
-    <img src="../../styles/images/app-lab-icon.svg" />
+    <img class="app-icon" src="../../styles/images/app-lab-icon.svg" />
     <a href="#"
       ><img @click="onShowOverlay" :src="menu_img" :class="{ active: isOpen }"
     /></a>

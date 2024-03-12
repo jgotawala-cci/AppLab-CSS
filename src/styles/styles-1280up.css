@@ -236,6 +236,26 @@
     max-width: 759px;
     left: 680px;
   }
+
+  /* Footer Styling */
+  .footer-container {
+    padding-bottom: 90px;
+  }
+  .footer-container > img {
+    margin-top: 103px;
+  }
+  .footer-container > nav {
+    margin-top: 58px;
+  }
+  .footer-container > nav > a {
+    margin-right: 27px;
+  }
+  .soical-media-icons {
+    margin-top: 45px;
+  }
+  .footer-container p {
+    margin-top: 72px;
+  }
 }
 
 @media (min-width: 1600px) {
