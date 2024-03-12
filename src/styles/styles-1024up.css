@@ -224,4 +224,25 @@
   .answer-show {
     margin-top: 20px;
   }
+
+  /* App Download style */
+  .divider {
+    margin-top: 88px;
+    margin-bottom: 24px;
+  }
+  .app-download-title-wrapper > p {
+    margin-top: 18px;
+  }
+  .download-buttons-wrapper {
+    margin-top: 34px;
+  }
+  .background-image {
+    height: 329px;
+  }
+  .background-image > img {
+    width: 675px;
+    height: 377px;
+    max-width: 675px;
+    left: 604px;
+  }
 }

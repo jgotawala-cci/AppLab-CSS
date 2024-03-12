@@ -52,7 +52,8 @@
 .ultimate-feature-top,
 .price-title-wrapper,
 .client-rating-container,
-.qa-title-wrapper {
+.qa-title-wrapper,
+.app-download-title-wrapper {
   margin-top: 70px;
 }
 
@@ -699,6 +700,41 @@ p {
 }
 .extra-padding {
   padding: 27px 20px 38px 26px;
+}
+
+/* App Download style */
+.app-download-title-wrapper > h3 {
+  line-height: 2.1;
+}
+.download-buttons-wrapper {
+  margin-top: 17px;
+  display: flex;
+  gap: 20px;
+}
+.download-buttons-wrapper img {
+  height: 45.45px;
+  width: 152.89px;
+}
+.download-buttons-wrapper img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.background-image > img {
+  width: 100%;
+  max-width: 454px;
+  height: 254px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+@media (min-width: 454px) {
+  .background-image > img {
+    width: 454px;
+  }
 }
 
 @media (min-width: 513px) {

@@ -215,4 +215,38 @@
   .answer-show {
     margin-top: 22.5px;
   }
+
+  /* App Download style */
+  .divider {
+    margin-top: 99px;
+    margin-bottom: 27px;
+  }
+  .app-download-title-wrapper > p {
+    margin-top: 20px;
+  }
+  .download-buttons-wrapper {
+    margin-top: 38px;
+  }
+  .background-image {
+    height: 370px;
+  }
+  .background-image > img {
+    width: 759px;
+    height: 424px;
+    max-width: 759px;
+    left: 680px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .background-image,
+  .client-rating-container > figure {
+    position: relative;
+  }
+  .client-rating-container > figure > img {
+    margin-left: -150px;
+  }
+  .background-image > img {
+    left: 0;
+  }
 }
