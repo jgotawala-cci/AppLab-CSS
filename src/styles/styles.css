@@ -11,6 +11,7 @@
   --toggle-border: #ebebeb;
   --card-background: #f4f7f9;
   --card-text: #999ca5;
+  --button-border: #eff3f8;
 
   --spacing: 25px;
 
@@ -48,7 +49,8 @@
 .design-info-right,
 .choose-app-wrapper,
 .ultimate-feature-top,
-.price-title-wrapper {
+.price-title-wrapper,
+.client-rating-container {
   margin-top: 70px;
 }
 
@@ -190,6 +192,12 @@ h4 {
   font-weight: 600;
   letter-spacing: 0;
   line-height: 1.5;
+  margin: 0;
+}
+h5 {
+  font-family: "Poppins-SemiBold";
+  font-size: 16px;
+  line-height: 1.75;
   margin: 0;
 }
 h6 {
@@ -548,6 +556,84 @@ p {
   color: var(--button-background);
   line-height: 1.81;
   margin-top: 21px;
+}
+
+/* Client Rating style */
+.client-rating-container figure {
+  height: 285px;
+}
+.client-rating-container > figure > img {
+  position: absolute;
+  height: 285px;
+  width: 375px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.page-container {
+  margin-top: 18px;
+  text-align: center;
+}
+.profile-image {
+  height: 75px;
+  width: 75px;
+  border-radius: 37.5px;
+  margin: auto;
+}
+.rating-container {
+  margin-top: 19px;
+}
+.rating-container img {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+.profile-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.profile-data {
+  flex-basis: 100%;
+}
+.profile-data h5 {
+  margin-top: 5px;
+}
+.profile-data span {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -5px;
+}
+.next,
+.prev {
+  width: 31px;
+  height: 31px;
+  border: 1.25px solid var(--button-border);
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: var(--button-border);
+  border-radius: 50px;
+}
+.next:hover,
+.prev:hover {
+  cursor: pointer;
+  border: 1.25px solid var(--button-background);
+}
+.next.disable,
+.prev.disable {
+  background-color: transparent;
+  border: 1.25px solid var(--button-border);
+}
+.page-container h5 {
+  margin-top: 20px;
+}
+.page-container p:nth-child(3) {
+  margin-top: 27px;
+}
+.page-container p:nth-child(6) {
+  margin-top: 10px;
 }
 
 @media (min-width: 513px) {

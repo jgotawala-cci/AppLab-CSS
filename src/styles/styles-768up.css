@@ -1,6 +1,7 @@
 @media (min-width: 769px) {
   :root {
     --choose-app-divider: #e5e6e5;
+    --pagination-divider: #e7e7e7;
     --container-width: 720px;
   }
 
@@ -73,6 +74,10 @@
   }
   h4 {
     font-size: 20px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 1.5;
   }
   p {
     font-size: 16px;
@@ -380,6 +385,90 @@
   }
   .card-bottom a {
     margin-top: 20px;
+  }
+
+  /* Client Rating style */
+  .client-rating-divider {
+    width: 100%;
+    border-top: 1px solid var(--choose-app-divider);
+    margin-top: 67px;
+    padding-top: 99px;
+  }
+  .client-rating-container {
+    width: var(--container-width);
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .client-rating-container > figure {
+    margin: 0;
+  }
+  .client-rating-container > figure > img {
+    width: 526px;
+    height: 400px;
+    margin-left: -10px;
+  }
+  .page-container {
+    margin-left: 435px;
+    text-align: left;
+  }
+  .rating-container {
+    display: inline-block;
+    margin-top: 25px;
+  }
+  .rating-container > img {
+    width: 37px;
+    height: 37px;
+    padding: 5px;
+  }
+  .page-container > h5 {
+    margin-top: 19px;
+  }
+  .page-container p:nth-child(3) {
+    margin-top: 25px;
+  }
+  .page-container p:nth-child(6) {
+    margin-top: 6px;
+  }
+  .profile-data {
+    display: flex;
+    margin-top: 36px;
+    align-items: center;
+  }
+  .name-designation {
+    width: 100%;
+    margin-left: 16px;
+  }
+  .profile-data div .divider {
+    display: inline-block;
+    width: auto;
+    height: 20px;
+    border-left: 1px solid var(--pagination-divider);
+    margin: 0 14px;
+    box-sizing: border-box;
+    align-self: center;
+  }
+  .profile-data div h5 {
+    margin: 0;
+  }
+  .profile-image {
+    width: 90px;
+    height: 90px;
+  }
+  .prev,
+  .next {
+    width: 50px;
+    height: 50px;
+    border: 1.25px solid var(--button-border);
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: var(--button-border);
+    border-radius: 25px;
+  }
+  .pagination-wrapper {
+    display: flex;
+    position: absolute;
+    right: 25px;
   }
 }
 

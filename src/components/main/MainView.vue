@@ -7,6 +7,7 @@
   <choose-app-view />
   <ultimate-feature-view class="container" />
   <price-view class="container center" />
+  <client-rate-view class="container" />
 </template>
 
 <script setup lang="ts">
@@ -18,4 +19,5 @@ import DesignInfoView from "./design-info/DesignInfoView.vue";
 import ChooseAppView from "./choose-app/ChooseAppView.vue";
 import UltimateFeatureView from "./unltimate-feature/UltimateFeatureView.vue";
 import PriceView from "./pricing/PriceView.vue";
+import ClientRateView from "./client-rating/ClientRateView.vue";
 </script>

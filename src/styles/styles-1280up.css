@@ -169,4 +169,35 @@
   .toggle {
     margin-top: 76px;
   }
+
+  /* Client Rating style */
+  .client-rating-divider {
+    margin-top: 94px;
+    padding-top: 139px;
+  }
+  .client-rating-container > figure > img {
+    width: 740px;
+    height: 562px;
+  }
+  .page-container {
+    margin-left: 612px;
+  }
+  .rating-container {
+    margin-top: 36px;
+  }
+  .page-container > h5 {
+    margin-top: 27px;
+  }
+  .page-container p:nth-child(3) {
+    margin-top: 36px;
+  }
+  .page-container p:nth-child(6) {
+    margin-top: 9px;
+  }
+  .profile-data {
+    margin-top: 51px;
+  }
+  .name-designation {
+    margin-left: 22.5px;
+  }
 }

@@ -174,4 +174,39 @@
   .toggle {
     margin-top: 68px;
   }
+
+  /* Client Rating style */
+  .client-rating-divider {
+    margin-top: 84px;
+    padding-top: 124px;
+  }
+  .client-rating-container > figure > img {
+    width: 658px;
+    height: 500px;
+  }
+  .page-container {
+    margin-left: 544px;
+    position: relative;
+  }
+  .rating-container {
+    margin-top: 32px;
+  }
+  .page-container > h5 {
+    margin-top: 24px;
+  }
+  .page-container p:nth-child(3) {
+    margin-top: 32px;
+  }
+  .page-container p:nth-child(6) {
+    margin-top: 8px;
+  }
+  .profile-data {
+    margin-top: 45.5px;
+  }
+  .name-designation {
+    margin-left: 20px;
+  }
+  .pagination-wrapper {
+    right: 0;
+  }
 }
