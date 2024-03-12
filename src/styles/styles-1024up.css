@@ -209,4 +209,19 @@
   .pagination-wrapper {
     right: 0;
   }
+
+  /* QA styling */
+  .qa-title-wrapper {
+    margin-top: 137px;
+    margin-bottom: 52px;
+  }
+  .qa-title-wrapper > p {
+    margin-top: 24px;
+  }
+  .expandable-container {
+    margin-top: 12px;
+  }
+  .answer-show {
+    margin-top: 20px;
+  }
 }

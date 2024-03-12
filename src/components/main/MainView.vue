@@ -8,6 +8,7 @@
   <ultimate-feature-view class="container" />
   <price-view class="container center" />
   <client-rate-view class="container" />
+  <question-answer-view class="container center" />
 </template>
 
 <script setup lang="ts">
@@ -20,4 +21,5 @@ import ChooseAppView from "./choose-app/ChooseAppView.vue";
 import UltimateFeatureView from "./unltimate-feature/UltimateFeatureView.vue";
 import PriceView from "./pricing/PriceView.vue";
 import ClientRateView from "./client-rating/ClientRateView.vue";
+import QuestionAnswerView from "./question-answer/QuestionAnswerView.vue";
 </script>

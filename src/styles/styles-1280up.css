@@ -200,4 +200,19 @@
   .name-designation {
     margin-left: 22.5px;
   }
+
+  /* QA styling */
+  .qa-title-wrapper {
+    margin-top: 154px;
+    margin-bottom: 58px;
+  }
+  .qa-title-wrapper > p {
+    margin-top: 27px;
+  }
+  .expandable-container {
+    margin-top: 13.5px;
+  }
+  .answer-show {
+    margin-top: 22.5px;
+  }
 }

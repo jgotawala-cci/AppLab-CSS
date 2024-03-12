@@ -12,6 +12,7 @@
   --card-background: #f4f7f9;
   --card-text: #999ca5;
   --button-border: #eff3f8;
+  --qa-background: #f5f7fa;
 
   --spacing: 25px;
 
@@ -50,7 +51,8 @@
 .choose-app-wrapper,
 .ultimate-feature-top,
 .price-title-wrapper,
-.client-rating-container {
+.client-rating-container,
+.qa-title-wrapper {
   margin-top: 70px;
 }
 
@@ -634,6 +636,69 @@ p {
 }
 .page-container p:nth-child(6) {
   margin-top: 10px;
+}
+
+/* QA styling */
+.qa-title-wrapper {
+  margin-bottom: 16px;
+}
+.qa-title-wrapper > p {
+  margin-top: 15px;
+}
+.expandable-container {
+  background-color: var(--qa-background);
+  margin: auto;
+  text-align: left;
+  margin-top: 8px;
+  padding: 18px 9px 18px 26px;
+  max-width: 945px;
+}
+.expand-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.expand-trigger h4 {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.expand-trigger img {
+  width: 15px;
+  height: 15px;
+  margin-left: 37px;
+  float: right;
+  transition: var(--transition-delay);
+}
+.expand-trigger img:hover {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: -2.5px;
+}
+.expand-content {
+  height: 0;
+  overflow: hidden;
+}
+.answer-show {
+  height: auto;
+  margin-top: 10px;
+}
+.hide-icon {
+  display: none;
+}
+.ellipsis-question {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.expand-question {
+  text-overflow: clip;
+  white-space: normal;
+  overflow: none;
+}
+.extra-padding {
+  padding: 27px 20px 38px 26px;
 }
 
 @media (min-width: 513px) {
