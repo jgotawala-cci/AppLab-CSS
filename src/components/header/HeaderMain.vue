@@ -11,11 +11,11 @@
   </section>
   <section class="desktop-header container desktop-view">
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Key Features</a>
-      <a href="#">Pricing</a>
-      <a href="#">Testimonial</a>
-      <a href="#">FAQ</a>
+      <a href="#home">Home</a>
+      <a href="#key-feature">Key Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#faq">FAQ</a>
     </nav>
     <button>Try for free</button>
   </section>
