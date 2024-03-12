@@ -2,11 +2,11 @@
   <footer class="footer-container">
     <img class="app-icon" src="../../styles/images/app-lab-icon.svg" />
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Key Features</a>
-      <a href="#">Pricing</a>
-      <a href="#">Testimonial</a>
-      <a href="#" class="no-margin">FAQ</a>
+      <a href="#home">Home</a>
+      <a href="#key-feature">Key Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#faq" class="no-margin">FAQ</a>
     </nav>
     <div class="soical-media-icons">
       <a href="#"><img src="../../styles/images/facebook.svg" /></a>

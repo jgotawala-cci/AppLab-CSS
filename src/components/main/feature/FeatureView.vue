@@ -1,5 +1,5 @@
 <template>
-  <div class="feature-wrapper">
+  <div id="key-feature" class="feature-wrapper">
     <feature-top class="mobile-view" />
     <feature-middle />
     <div>

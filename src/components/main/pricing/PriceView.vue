@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="pricing">
     <price-title />
     <price-toggle />
     <card-view />

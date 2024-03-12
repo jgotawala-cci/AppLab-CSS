@@ -1,5 +1,5 @@
 <template>
-  <div class="client-rating-divider">
+  <div id="testimonial" class="client-rating-divider">
     <section class="client-rating-container">
       <h3 class="mobile-view">Meet Client Satisfaction by using product</h3>
       <figure>

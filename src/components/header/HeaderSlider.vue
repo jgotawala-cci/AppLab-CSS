@@ -1,11 +1,11 @@
 <template>
   <aside class="overlay" :style="props.overlayStyle">
     <nav>
-      <a href="#" @click="props.onCloseOverlay">Home</a>
-      <a href="#" @click="props.onCloseOverlay">Key Features</a>
-      <a href="#" @click="props.onCloseOverlay">Pricing</a>
-      <a href="#" @click="props.onCloseOverlay">Testimonial</a>
-      <a href="#" @click="props.onCloseOverlay">FAQ</a>
+      <a href="#home" @click="props.onCloseOverlay">Home</a>
+      <a href="#key-feature" @click="props.onCloseOverlay">Key Features</a>
+      <a href="#pricing" @click="props.onCloseOverlay">Pricing</a>
+      <a href="#testimonial" @click="props.onCloseOverlay">Testimonial</a>
+      <a href="#faq" @click="props.onCloseOverlay">FAQ</a>
     </nav>
     <button @click="props.onCloseOverlay">Try for free</button>
   </aside>
