@@ -659,6 +659,7 @@ p {
   margin-top: 8px;
   padding: 18px 9px 18px 26px;
   max-width: 945px;
+  transition: all var(--transition-delay) ease-in-out;
 }
 .expand-trigger {
   display: flex;
@@ -685,11 +686,14 @@ p {
 }
 .expand-content {
   height: 0;
+  max-height: 0;
   overflow: hidden;
+  transition: all var(--transition-delay) ease-in-out;
 }
 .answer-show {
   height: auto;
   margin-top: 10px;
+  max-height: 500px;
 }
 .hide-icon {
   display: none;
