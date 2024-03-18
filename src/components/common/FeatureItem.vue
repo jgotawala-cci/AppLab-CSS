@@ -9,7 +9,12 @@
     }"
   >
     <figure :style="img_background" :class="{ 'is-small': props.isSmall }">
-      <img :src="props.feature.img" :class="{ 'is-small': props.isSmall }" />
+      <img
+        :src="props.feature.img"
+        :class="{ 'is-small': props.isSmall }"
+        width="88px"
+        height="88px"
+      />
     </figure>
     <figcaption :class="{ 'add-margin': props.addMargin }">
       <h4 :style="font_color">{{ props.feature.title }}</h4>

@@ -1,5 +1,5 @@
 <template>
-  <section class="price-title-wrapper">
+  <div class="price-title-wrapper">
     <h3>
       Get awesome features, without<span class="desktop-view"><br /></span>
       extra charges
@@ -9,5 +9,5 @@
       entirely <span class="desktop-view"><br /></span>and the world's most
       elegant channels such as Facebook.
     </p>
-  </section>
+  </div>
 </template>

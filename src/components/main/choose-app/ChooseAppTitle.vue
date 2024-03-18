@@ -1,5 +1,5 @@
 <template>
-  <section class="choose-app-title">
+  <div class="choose-app-title">
     <h3>
       Why you should choose<br />
       our app
@@ -10,5 +10,5 @@
       /></span>
       entirely and the world's most elegant channels such as Facebook.
     </p>
-  </section>
+  </div>
 </template>

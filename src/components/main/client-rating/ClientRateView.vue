@@ -3,7 +3,11 @@
     <section class="client-rating-container">
       <h3 class="mobile-view">Meet Client Satisfaction by using product</h3>
       <figure>
-        <img src="../../../styles/images/peoples.svg" />
+        <img
+          src="../../../styles/images/peoples.svg"
+          width="526px"
+          height="400px"
+        />
       </figure>
       <client-pager />
     </section>

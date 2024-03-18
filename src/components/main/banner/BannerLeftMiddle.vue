@@ -1,5 +1,5 @@
 <template>
-  <section class="banner-left-middle-wrapper">
+  <div class="banner-left-middle-wrapper">
     <h1>
       Best app for your <span class="desktop-view"><br /></span>modern lifestyle
     </h1>
@@ -9,5 +9,5 @@
       budgets.
     </p>
     <button class="desktop-view">Try for free</button>
-  </section>
+  </div>
 </template>

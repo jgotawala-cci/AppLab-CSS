@@ -235,6 +235,7 @@
   }
   .download-buttons-wrapper {
     margin-top: 34px;
+    margin-bottom: 95px;
   }
   .background-image {
     height: 329px;
@@ -244,25 +245,26 @@
     height: 377px;
     max-width: 675px;
     left: 604px;
+    margin-top: 0;
   }
 
   /* Footer Styling */
-  .footer-container {
+  footer {
     padding-bottom: 80px;
   }
-  .footer-container > img {
+  footer > img {
     margin-top: 92px;
   }
-  .footer-container > nav {
+  footer > nav {
     margin-top: 52px;
   }
-  .footer-container > nav > a {
+  footer > nav > a {
     margin-right: 24px;
   }
   .soical-media-icons {
     margin-top: 40px;
   }
-  .footer-container p {
+  footer p {
     margin-top: 64px;
   }
 }

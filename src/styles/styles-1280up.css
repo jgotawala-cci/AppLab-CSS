@@ -226,6 +226,7 @@
   }
   .download-buttons-wrapper {
     margin-top: 38px;
+    margin-bottom: 107px;
   }
   .background-image {
     height: 370px;
@@ -238,22 +239,22 @@
   }
 
   /* Footer Styling */
-  .footer-container {
+  footer {
     padding-bottom: 90px;
   }
-  .footer-container > img {
+  footer > img {
     margin-top: 103px;
   }
-  .footer-container > nav {
+  footer > nav {
     margin-top: 58px;
   }
-  .footer-container > nav > a {
+  footer > nav > a {
     margin-right: 27px;
   }
   .soical-media-icons {
     margin-top: 45px;
   }
-  .footer-container p {
+  footer p {
     margin-top: 72px;
   }
 }

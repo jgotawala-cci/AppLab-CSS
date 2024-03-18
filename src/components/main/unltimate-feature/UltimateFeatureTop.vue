@@ -1,5 +1,5 @@
 <template>
-  <section class="ultimate-feature-top">
+  <div class="ultimate-feature-top">
     <h3>
       Ultimate features <span class="desktop-view"><br /></span>that we built
     </h3>
@@ -9,5 +9,5 @@
       /></span>
       consume information entirely.
     </p>
-  </section>
+  </div>
 </template>

@@ -1,6 +1,10 @@
 <template>
-  <section class="design-info-left">
-    <img src="../../../styles/images/design-info.svg" />
+  <div class="design-info-left">
+    <img
+      src="../../../styles/images/design-info.svg"
+      width="324px"
+      height="297px"
+    />
     <button class="mobile-view">Learn more</button>
-  </section>
+  </div>
 </template>

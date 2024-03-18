@@ -10,6 +10,8 @@
         {{ props.questionAnswer.question }}
       </h4>
       <img
+        width="15px"
+        height="15px"
         @click.stop="props.onExpand(props.questionAnswer.no)"
         src="../../styles/images/plus-icon.svg"
         :class="{ 'hide-icon': isExpanded }"

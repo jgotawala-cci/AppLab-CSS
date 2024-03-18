@@ -324,7 +324,7 @@
     display: inline-block;
     border: 2px solid var(--toggle-border);
     border-radius: 50px;
-    font-family: "Poppins-Bold";
+    font-family: var(--bold);
     padding: 5px;
     gap: 0;
     margin: auto;
@@ -512,6 +512,7 @@
   }
   .download-buttons-wrapper {
     margin-top: 27px;
+    margin-bottom: 76px;
     display: flex;
     gap: 30px;
   }
@@ -530,32 +531,33 @@
     height: 302px;
     max-width: 540px;
     margin: 0;
-    left: 483px;
+    left: 283px;
     right: 0;
     z-index: 1;
+    margin-top: 120px;
   }
 
   /* Footer Styling */
-  .footer-container {
+  footer {
     padding-bottom: 64px;
   }
-  .footer-container > img {
+  footer > img {
     margin-top: 73px;
   }
-  .footer-container > nav {
+  footer > nav {
     margin-top: 41px;
   }
-  .footer-container > nav > a {
+  footer > nav > a {
     display: inline-block;
     margin-right: 19px;
   }
-  .footer-container > nav > a.no-margin {
+  footer > nav > a.no-margin {
     margin-right: 0px;
   }
   .soical-media-icons {
     margin-top: 32px;
   }
-  .footer-container p {
+  footer p {
     margin-top: 51px;
   }
 }
@@ -564,5 +566,8 @@
   .grid-container img {
     width: 154px;
     height: 84px;
+  }
+  .background-image > img {
+    left: 483px;
   }
 }

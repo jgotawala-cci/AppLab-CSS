@@ -11,10 +11,17 @@
     </div>
     <img
       class="cross-bg desktop-view"
+      width="504px"
+      height="403px"
       src="../../../styles/images/cross-background.svg"
     />
     <div class="building-bg"></div>
-    <img class="circle-bg" src="../../../styles/images/circle-background.svg" />
+    <img
+      class="circle-bg"
+      width="806px"
+      height="605px"
+      src="../../../styles/images/circle-background.svg"
+    />
   </div>
 </template>
 

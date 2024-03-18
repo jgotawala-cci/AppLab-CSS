@@ -1,15 +1,25 @@
 <template>
-  <section class="main-header container mobile-view">
-    <img class="app-icon" src="../../styles/images/app-lab-icon.svg" />
+  <div class="main-header container mobile-view">
+    <img
+      class="app-icon"
+      src="../../styles/images/app-lab-icon.svg"
+      width="118px"
+      height="44px"
+    />
     <a href="#"
-      ><img @click="onShowOverlay" :src="menu_img" :class="{ active: isOpen }"
+      ><img
+        @click="onShowOverlay"
+        :src="menu_img"
+        :class="{ active: isOpen }"
+        width="22px"
+        height="16px"
     /></a>
     <header-slider
       :overlayStyle="overlayStyle"
       :onCloseOverlay="onCloseOverlay"
     ></header-slider>
-  </section>
-  <section class="desktop-header container desktop-view">
+  </div>
+  <div class="desktop-header container desktop-view">
     <nav>
       <a href="#home">Home</a>
       <a href="#key-feature">Key Features</a>
@@ -18,7 +28,7 @@
       <a href="#faq">FAQ</a>
     </nav>
     <button>Try for free</button>
-  </section>
+  </div>
 </template>
 
 <script setup lang="ts">

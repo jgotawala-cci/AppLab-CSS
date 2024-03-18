@@ -1,5 +1,5 @@
 <template>
-  <section class="toggle">
+  <div class="toggle">
     <label
       for="monthly"
       class="toggle-text"
@@ -17,7 +17,7 @@
       @click="onAnnually"
       >Annually</label
     >
-  </section>
+  </div>
 </template>
 
 <script setup lang="ts">

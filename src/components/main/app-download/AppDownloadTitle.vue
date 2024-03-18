@@ -1,5 +1,5 @@
 <template>
-  <section class="app-download-title-wrapper">
+  <div class="app-download-title-wrapper">
     <h3>Download our App now !</h3>
     <p>
       The rise of mobile devices transforms the way we consume information
@@ -8,11 +8,19 @@
     </p>
     <div class="download-buttons-wrapper">
       <a href="#">
-        <img src="../../../styles/images/play-store.svg" />
+        <img
+          src="../../../styles/images/play-store.svg"
+          width="152px"
+          height="45px"
+        />
       </a>
       <a href="#">
-        <img src="../../../styles/images/app-store.svg" />
+        <img
+          src="../../../styles/images/app-store.svg"
+          width="152px"
+          height="45px"
+        />
       </a>
     </div>
-  </section>
+  </div>
 </template>

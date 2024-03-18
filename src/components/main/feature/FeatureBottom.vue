@@ -1,5 +1,5 @@
 <template>
-  <section class="figure-bottom-wrapper">
+  <div class="figure-bottom-wrapper">
     <feature-item
       v-for="feature in features"
       :key="feature.title"
@@ -7,7 +7,7 @@
       :isSmall="true"
       :addMargin="true"
     />
-  </section>
+  </div>
 </template>
 
 <script setup lang="ts">
