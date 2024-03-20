@@ -1,14 +1,11 @@
 <template>
   <section class="main-header container mobile-view">
     <img src="../../styles/images/app-lab-icon.svg" width="118" height="44" />
-    <a href="#"
-      ><img
-        @click="onShowOverlay"
-        :src="menu_img"
-        :class="{ active: isOpen }"
-        width="22"
-        height="16"
-    /></a>
+    <div class="menu-icon" :class="{ open: isOpen }" @click="onShowOverlay">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
     <header-slider
       :overlayStyle="overlayStyle"
       :onCloseOverlay="onCloseOverlay"
