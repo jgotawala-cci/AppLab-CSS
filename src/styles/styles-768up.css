@@ -306,14 +306,14 @@
   }
 
   /* Pricing styling */
-  .price-title-wrapper {
+  .price-wrapper > h3 {
     margin-top: 112px;
   }
-  .price-title-wrapper > h3,
-  .price-title-wrapper > p {
+  .price-wrapper > h3,
+  .price-wrapper > p {
     text-align: center;
   }
-  .price-title-wrapper > p {
+  .price-wrapper > p {
     margin-top: 22px;
   }
   .toggle {
@@ -458,12 +458,12 @@
   }
 
   /* QA styling */
-  .qa-title-wrapper {
+  .faq-wrapper > h3 {
     margin-top: 110px;
-    margin-bottom: 41px;
   }
-  .qa-title-wrapper > p {
+  .faq-wrapper > p {
     margin-top: 19px;
+    margin-bottom: 41px;
   }
   .expandable-container {
     margin-top: 10px;

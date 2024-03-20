@@ -160,10 +160,10 @@
   }
 
   /* Pricing styling */
-  .price-title-wrapper {
+  .price-wrapper > h3 {
     margin-top: 157px;
   }
-  .price-title-wrapper > p {
+  .price-wrapper > p {
     margin-top: 31px;
   }
   .toggle {
@@ -202,11 +202,11 @@
   }
 
   /* QA styling */
-  .qa-title-wrapper {
+  .faq-wrapper > h3 {
     margin-top: 154px;
-    margin-bottom: 58px;
   }
-  .qa-title-wrapper > p {
+  .faq-wrapper > p {
+    margin-bottom: 58px;
     margin-top: 27px;
   }
   .expandable-container {

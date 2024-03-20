@@ -1,5 +1,5 @@
 <template>
-  <section id="faq" @click="onExpand(-1)">
+  <section class="faq-wrapper" id="faq" @click="onExpand(-1)">
     <question-answer-title />
     <expandable-view
       v-for="questionAnswer in questionAnswers"

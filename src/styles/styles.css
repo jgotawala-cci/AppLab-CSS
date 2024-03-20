@@ -55,9 +55,9 @@
 .design-info-right,
 .choose-app-wrapper,
 .ultimate-feature-top,
-.price-title-wrapper,
+.price-wrapper > h3,
 .client-rating-container,
-.qa-title-wrapper,
+.faq-wrapper > h3,
 .app-download-container {
   margin-top: 70px;
 }
@@ -455,7 +455,7 @@ p {
 }
 
 /* Pricing styling */
-.price-title-wrapper > p {
+.price-wrapper > p {
   margin-top: 15px;
 }
 .toggle {
@@ -621,11 +621,9 @@ p {
 }
 
 /* QA styling */
-.qa-title-wrapper {
-  margin-bottom: 16px;
-}
-.qa-title-wrapper > p {
+.faq-wrapper > p {
   margin-top: 15px;
+  margin-bottom: 16px;
 }
 .expandable-container {
   background-color: var(--qa-background);
