@@ -12,12 +12,14 @@
       <img
         :src="props.feature.img"
         :class="{ 'is-small': props.isSmall }"
-        width="88px"
-        height="88px"
+        width="88"
+        height="88"
       />
     </figure>
     <figcaption :class="{ 'add-margin': props.addMargin }">
-      <h4 :style="font_color">{{ props.feature.title }}</h4>
+      <h4 :class="{ 'is-small': props.isSmall }" :style="font_color">
+        {{ props.feature.title }}
+      </h4>
       <p :class="{ 'is-small': props.isSmall }">
         {{ props.feature.subTitle }}
       </p>

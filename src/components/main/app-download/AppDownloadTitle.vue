@@ -10,15 +10,15 @@
       <a href="#">
         <img
           src="../../../styles/images/play-store.svg"
-          width="152px"
-          height="45px"
+          width="152"
+          height="45"
         />
       </a>
       <a href="#">
         <img
           src="../../../styles/images/app-store.svg"
-          width="152px"
-          height="45px"
+          width="152"
+          height="45"
         />
       </a>
     </div>

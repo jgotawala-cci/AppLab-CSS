@@ -5,8 +5,8 @@
     <div class="background-image">
       <img
         src="../../../styles/images/location-background.svg"
-        width="454px"
-        height="254px"
+        width="454"
+        height="254"
       />
     </div>
   </section>

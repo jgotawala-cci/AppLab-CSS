@@ -8,11 +8,11 @@
     </p>
 
     <div class="rating-container desktop-view">
-      <img src="../../../styles/images/star.svg" width="37px" height="37px" />
-      <img src="../../../styles/images/star.svg" width="37px" height="37px" />
-      <img src="../../../styles/images/star.svg" width="37px" height="37px" />
-      <img src="../../../styles/images/star.svg" width="37px" height="37px" />
-      <img src="../../../styles/images/star.svg" width="37px" height="37px" />
+      <img src="../../../styles/images/star.svg" width="37" height="37" />
+      <img src="../../../styles/images/star.svg" width="37" height="37" />
+      <img src="../../../styles/images/star.svg" width="37" height="37" />
+      <img src="../../../styles/images/star.svg" width="37" height="37" />
+      <img src="../../../styles/images/star.svg" width="37" height="37" />
     </div>
     <h5>User friendly & Customizable</h5>
     <p>
@@ -26,8 +26,8 @@
       <img
         class="profile-image"
         src="../../../styles/images/profile-image.svg"
-        width="90px"
-        height="90px"
+        width="90"
+        height="90"
       />
       <div class="name-designation">
         <h5>Zoltan Nemeth</h5>
@@ -37,15 +37,15 @@
         <img
           class="prev disable"
           src="../../../styles/images/disable-arrow.svg"
-          width="50px"
-          height="50px"
+          width="50"
+          height="50"
         />
         <div class="divider"></div>
         <img
           class="next"
           src="../../../styles/images/active-arrow.svg"
-          width="50px"
-          height="50px"
+          width="50"
+          height="50"
         />
       </div>
     </div>

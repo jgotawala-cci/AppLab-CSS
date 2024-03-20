@@ -1,7 +1,7 @@
 <template>
-  <section class="choose-app-wrapper">
-    <choose-app-title class="container" />
-    <div class="desktop-grid container">
+  <section class="choose-app-wrapper container">
+    <choose-app-title />
+    <div class="desktop-grid">
       <feature-item
         v-for="reason in reasons"
         :key="reason.title"

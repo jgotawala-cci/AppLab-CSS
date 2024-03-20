@@ -5,8 +5,8 @@
       <figure>
         <img
           src="../../../styles/images/peoples.svg"
-          width="526px"
-          height="400px"
+          width="526"
+          height="400"
         />
       </figure>
       <client-pager />

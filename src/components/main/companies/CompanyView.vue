@@ -4,29 +4,25 @@
     <div class="grid-container container">
       <img
         src="../../../styles/images/southwest-company.svg"
-        width="154px"
-        height="84px"
+        width="147"
+        height="81"
       />
       <img
         src="../../../styles/images/anubis-entertainment.svg"
-        width="154px"
-        height="84px"
+        width="147"
+        height="81"
       />
       <img
         src="../../../styles/images/alanzo-casseta.svg"
-        width="154px"
-        height="84px"
+        width="147"
+        height="81"
       />
       <img
         src="../../../styles/images/premium-express.svg"
-        width="154px"
-        height="84px"
+        width="147"
+        height="81"
       />
-      <img
-        src="../../../styles/images/maniac.svg"
-        width="154px"
-        height="84px"
-      />
+      <img src="../../../styles/images/maniac.svg" width="147" height="81" />
     </div>
   </section>
 </template>

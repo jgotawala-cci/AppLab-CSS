@@ -33,13 +33,13 @@
   .banner-left-top-wrapper {
     margin-top: 100px;
   }
-  .banner-left-middle-wrapper > button {
+  .banner-left-top-wrapper ~ button {
     margin-top: 36px;
   }
-  .banner-left-middle-wrapper > h1 {
+  .banner-left-top-wrapper ~ h1 {
     margin-top: 10px;
   }
-  .banner-left-middle-wrapper > p {
+  .banner-left-top-wrapper ~ p {
     margin-top: 18px;
   }
   .circle-bg {
@@ -108,7 +108,7 @@
   .design-info-wrapper {
     margin-top: 90px;
   }
-  .design-info-left > img {
+  .design-info-wrapper img {
     height: 390px;
     width: 424px;
     margin-right: 90px;
@@ -229,6 +229,9 @@
   .divider {
     margin-top: 88px;
     margin-bottom: 24px;
+  }
+  .app-download-title-wrapper {
+    margin-top: 80px;
   }
   .app-download-title-wrapper > p {
     margin-top: 18px;
