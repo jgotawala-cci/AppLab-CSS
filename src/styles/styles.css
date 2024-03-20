@@ -414,6 +414,9 @@ p {
 }
 
 /* Design info style */
+.design-info-wrapper {
+  text-align: center;
+}
 .design-info-right > p {
   margin-top: 5px;
 }
@@ -684,6 +687,14 @@ p {
 }
 
 /* App Download style */
+.app-download-container {
+  height: 446px;
+  background-image: url("./images/location-background.svg");
+  background-repeat: no-repeat;
+  background-size: 454px;
+  background-position: bottom center;
+  margin-bottom: -30px;
+}
 .app-download-title-wrapper > h3 {
   line-height: 2.1;
 }
@@ -695,20 +706,6 @@ p {
 .download-buttons-wrapper img:hover {
   opacity: 0.8;
   cursor: pointer;
-}
-.background-image {
-  height: 237px;
-}
-.background-image > img {
-  width: 100%;
-  max-width: 454px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: auto;
-  margin-top: 15px;
-  object-fit: cover;
-  z-index: -1;
 }
 
 /* Footer Styling */
@@ -742,13 +739,6 @@ footer p {
   line-height: 1.5;
   color: var(--transperent-white);
   margin-top: 50px;
-}
-
-@media (min-width: 454px) {
-  .background-image > img {
-    width: 454px;
-    line-height: 2.75;
-  }
 }
 
 @media (min-width: 513px) {

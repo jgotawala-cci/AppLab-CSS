@@ -1,8 +1,8 @@
 <template>
   <section id="key-feature" class="feature-wrapper">
     <feature-top class="mobile-view" />
-    <feature-middle />
-    <div>
+    <feature-middle class="mobile-view" />
+    <div class="feature-content">
       <feature-top class="desktop-view" />
       <feature-bottom />
     </div>

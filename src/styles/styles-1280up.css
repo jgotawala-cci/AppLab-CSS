@@ -66,23 +66,16 @@
   /* Feature style */
   .feature-wrapper {
     margin-top: 114px;
-    gap: 60px;
+    background-size: 549px;
   }
   .figure-top-wrapper > h3 {
     margin-top: 43px;
-    margin-right: 240px;
   }
   .figure-top-wrapper > p {
     margin-top: 15px;
-    margin-right: 115px;
-  }
-  .figure-middle-wrapper > img {
-    width: 549px;
-    height: 755px;
   }
   .figure-bottom-wrapper {
     margin-top: 76px;
-    margin-right: 115px;
   }
 
   /* Benifits style */
@@ -133,6 +126,7 @@
   /* Ultimate Feature style */
   .ultimate-feature-container {
     margin-top: 171px;
+    background-size: 627px;
   }
   .ultimate-feature-middle,
   .ultimate-feature-top > p {
@@ -175,12 +169,8 @@
     margin-top: 94px;
     padding-top: 139px;
   }
-  .client-rating-container > figure > img {
-    width: 740px;
-    height: 562px;
-  }
-  .page-container {
-    margin-left: 612px;
+  .client-rating-container {
+    background-size: 575px;
   }
   .rating-container {
     margin-top: 36px;
@@ -221,6 +211,10 @@
     margin-top: 99px;
     margin-bottom: 27px;
   }
+  .app-download-container {
+    background-size: 759px;
+    margin-bottom: -55px;
+  }
   .app-download-title-wrapper {
     margin-top: 90px;
   }
@@ -230,15 +224,6 @@
   .download-buttons-wrapper {
     margin-top: 38px;
     margin-bottom: 107px;
-  }
-  .background-image {
-    height: 370px;
-  }
-  .background-image > img {
-    width: 759px;
-    height: 424px;
-    max-width: 759px;
-    left: 680px;
   }
 
   /* Footer Styling */
@@ -263,14 +248,10 @@
 }
 
 @media (min-width: 1600px) {
-  .background-image,
   .client-rating-container > figure {
     position: relative;
   }
   .client-rating-container > figure > img {
     margin-left: -150px;
-  }
-  .background-image > img {
-    left: 0;
   }
 }

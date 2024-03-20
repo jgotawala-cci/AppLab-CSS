@@ -5,7 +5,7 @@
       <ultimate-feature-middle class="mobile-view" />
       <ultimate-feature-bottom />
     </div>
-    <ultimate-feature-middle class="desktop-view" />
+    <!-- <ultimate-feature-middle class="desktop-view" /> -->
   </section>
 </template>
 

@@ -170,24 +170,23 @@
   .feature-wrapper {
     display: flex;
     margin-top: 81px;
-    gap: 47px;
-    justify-content: center;
+    justify-content: flex-end;
+    background-image: url("./images/smart-search.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 310px;
+  }
+  .feature-content {
+    flex-basis: 50%;
   }
   .figure-top-wrapper > h3 {
     margin-top: 30px;
-    margin-right: 240px;
   }
   .figure-top-wrapper > p {
     margin-top: 11px;
-    margin-right: 73px;
-  }
-  .figure-middle-wrapper > img {
-    width: 390px;
-    height: 536px;
   }
   .figure-bottom-wrapper {
     margin-top: 54px;
-    margin-right: 73px;
   }
 
   /* Benifits style */
@@ -215,6 +214,7 @@
     display: flex;
     flex-direction: row-reverse;
     margin-top: 65px;
+    text-align: left;
   }
   .design-info-wrapper img {
     height: 292px;
@@ -254,6 +254,10 @@
     display: flex;
     margin-top: 121px;
     align-self: flex-end;
+    background-image: url("./images/ultimate-feature.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 350px;
   }
   .ultimate-feature-wrapper {
     flex-basis: 50%;
@@ -395,6 +399,11 @@
     margin: auto;
     display: flex;
     box-sizing: border-box;
+    background-image: url("./images/peoples.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    justify-content: flex-end;
+    background-size: 375px;
   }
   .client-rating-container > figure {
     margin: 0;
@@ -403,7 +412,7 @@
     margin-left: -10px;
   }
   .page-container {
-    margin-left: 435px;
+    flex-basis: 50%;
     text-align: left;
   }
   .rating-container {
@@ -503,24 +512,15 @@
     gap: 30px;
   }
   .app-download-container {
+    height: 472px;
     display: flex;
+    z-index: 1;
+    margin-bottom: -32px;
+    position: relative;
+    background-position: bottom right;
   }
   .app-download-title-wrapper {
-    flex-basis: 60%;
-  }
-  .background-image {
-    flex-basis: 40%;
-    height: 263px;
-  }
-  .background-image > img {
-    width: 540px;
-    height: 302px;
-    max-width: 540px;
-    margin: 0;
-    left: 283px;
-    right: 0;
-    z-index: 1;
-    margin-top: 185px;
+    flex-basis: 50%;
   }
 
   /* Footer Styling */
@@ -552,8 +552,5 @@
   .grid-container img {
     width: 154px;
     height: 84px;
-  }
-  .background-image > img {
-    left: 483px;
   }
 }
