@@ -42,17 +42,6 @@
   .banner-left-top-wrapper ~ p {
     margin-top: 18px;
   }
-  .circle-bg {
-    width: 922px;
-    height: 692px;
-    top: -16px;
-    right: 88px;
-  }
-  .cross-bg {
-    height: 504px;
-    width: 630px;
-    top: 46px;
-  }
 
   /* Associate company style */
   .companies-container {
@@ -114,9 +103,9 @@
   }
 
   /* Choose app style */
-  .choose-app-wrapper {
+  .choose-app-wrapper-divider {
     margin-top: 60px;
-    padding-top: 112px;
+    margin-bottom: 112px;
   }
   .choose-app-wrapper > div {
     margin-top: 76px;

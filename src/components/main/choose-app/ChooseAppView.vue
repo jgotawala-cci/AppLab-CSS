@@ -1,4 +1,5 @@
 <template>
+  <div class="choose-app-wrapper-divider"></div>
   <section class="choose-app-wrapper container">
     <choose-app-title />
     <div class="desktop-grid">
