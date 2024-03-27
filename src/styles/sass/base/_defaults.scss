@@ -1,0 +1,261 @@
+/* Body */
+body {
+  background-color: $white;
+  margin: 0;
+  color: $primary;
+  font-family: $regular;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 2;
+  overflow-x: hidden;
+}
+
+.container {
+  margin: 0 $spacing-sm;
+  @media (min-width: $screen-md) {
+    width: $container-width-md;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  @media (min-width: $screen-lg) {
+    width: $container-width-lg;
+  }
+  @media (min-width: $screen-xl) {
+    width: $container-width-xl;
+  }
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+header {
+  background-color: $header-background;
+  line-height: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  @media (min-width: $screen-md) {
+    background-color: transparent;
+    line-height: 0;
+    position: static;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $white;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 2.75;
+}
+a:hover {
+  opacity: 0.5;
+}
+p {
+  margin: 0;
+  color: $secondary;
+  letter-spacing: 0;
+  line-height: 1.46;
+  @media (min-width: $screen-md) {
+    font-size: 16px;
+    line-height: 1.625;
+  }
+}
+
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+
+.mobile-view {
+  display: block;
+  @media (min-width: $screen-md) {
+    display: none;
+  }
+}
+.desktop-view {
+  display: none;
+  @media (min-width: $screen-md) {
+    display: inline;
+  }
+}
+
+footer {
+  background-color: $header-background;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 63px;
+}
+
+img {
+  object-fit: contain;
+}
+
+/* UI */
+.circle-purple {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%; /* Ensures the element is a circle */
+  border: 6px solid $purple; /* Solid border to define the width */
+  box-sizing: border-box;
+}
+.squre-purple {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 4px solid $purple; /* Solid border to define the width */
+  rotate: 45deg;
+}
+.cross-purple,
+.plus-blue {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  rotate: -5deg;
+}
+.plus-blue {
+  width: 20px;
+  height: 20px;
+  rotate: 0deg;
+}
+.cross-purple::before,
+.cross-purple::after,
+.plus-blue::before,
+.plus-blue::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background-color: $purple;
+  top: calc(50% - 5px);
+}
+.plus-blue::before,
+.plus-blue::after {
+  height: 3px;
+  background-color: $blue;
+  border-radius: 2px;
+}
+.cross-purple::before {
+  transform: rotate(45deg);
+}
+.cross-purple::after {
+  transform: rotate(-45deg);
+}
+.plus-blue::after {
+  transform: rotate(-90deg);
+}
+.circle-gredient-out {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, $red, $orange);
+  justify-content: center;
+  align-items: center;
+}
+.circle-gredient-in {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: $white;
+}
+.menu-icon {
+  margin-top: 30px;
+  width: 30px;
+  height: 20px;
+  @include flex-space-between;
+  flex-direction: column;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.line {
+  width: 100%;
+  height: 2px;
+  background-color: $white;
+  transition: all $transition-delay ease-in-out;
+}
+.open {
+  .line:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+}
+.open {
+  .line:nth-child(2) {
+    transform: scaleY(0);
+  }
+}
+.open {
+  .line:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+}
+
+.element-container {
+  position: relative;
+}
+.element {
+  position: absolute;
+  animation: element-transition $transition-delay ease-in-out;
+  z-index: -1;
+}
+.element-1 {
+  right: 7%;
+  top: 25%;
+}
+.element-2 {
+  left: 10%;
+  bottom: 5%;
+}
+
+@keyframes element-transition {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (min-width: $screen-md) {
+  .element-1 {
+    right: 27%;
+    top: 3%;
+  }
+  .element-2 {
+    left: 37%;
+    bottom: 5%;
+  }
+  .element-3 {
+    display: flex;
+    right: -5%;
+    bottom: 10%;
+  }
+  .element-4 {
+    display: flex;
+    left: 18%;
+    bottom: 15%;
+  }
+  .element-5 {
+    left: 10%;
+    top: 7%;
+  }
+  .element-6 {
+    left: 35%;
+    top: 15%;
+  }
+  .element-7 {
+    left: -7%;
+    bottom: 25%;
+  }
+  .element-8 {
+    left: 45%;
+    bottom: 25%;
+  }
+}

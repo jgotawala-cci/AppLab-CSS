@@ -1,0 +1,35 @@
+/* Mixins */
+
+@mixin vetical-margin($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+@mixin horizontal-margin($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+@mixin vetical-padding($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+@mixin horizontal-padding($left, $right) {
+  padding-left: $left;
+  padding-right: $right;
+}
+
+@mixin remove-ul-style {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flex-justify-center {
+  display: flex;
+  justify-content: center;
+}

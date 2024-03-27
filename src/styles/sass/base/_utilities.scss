@@ -1,0 +1,8 @@
+/* Utilities */
+// Loop through the range of values and generate dynamic variables
+@for $i from $min-spacing through $max-spacing {
+  // Calculate the value based on the step
+  $value: $i * $step;
+  // Add the dynamic variable to the map
+  $spacing: map-merge($spacing, (spacing-#{$value}: #{$value}px));
+}

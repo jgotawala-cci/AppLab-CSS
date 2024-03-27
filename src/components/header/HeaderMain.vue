@@ -1,5 +1,5 @@
 <template>
-  <section class="main-header container mobile-view">
+  <section class="main-header container">
     <img src="../../styles/images/app-lab-icon.svg" width="118" height="44" />
     <div class="menu-icon" :class="{ open: isOpen }" @click="onShowOverlay">
       <span class="line"></span>
@@ -11,7 +11,7 @@
       :onCloseOverlay="onCloseOverlay"
     ></header-slider>
   </section>
-  <section class="desktop-header container desktop-view">
+  <section class="desktop-header container">
     <nav>
       <a href="#home">Home</a>
       <a href="#key-feature">Key Features</a>

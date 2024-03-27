@@ -1,0 +1,55 @@
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $semi-bold;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: $h1-t-font-size;
+  line-height: $h1-line-height;
+}
+h2 {
+  font-size: $h2-t-font-size;
+  line-height: $h2-line-height;
+}
+h3 {
+  font-size: $h3-t-font-size;
+  line-height: $h3-line-height;
+}
+h4 {
+  font-size: $h4-t-font-size;
+  line-height: $h4-line-height;
+}
+h5 {
+  font-size: $h5-t-font-size;
+  line-height: $h5-line-height;
+}
+h6 {
+  font-family: $regular;
+  font-size: $h6-t-font-size;
+  line-height: $h6-line-height;
+}
+@media (min-width: $screen-md) {
+  h2 {
+    font-size: 40px;
+    line-height: 1.25;
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 1.27;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}

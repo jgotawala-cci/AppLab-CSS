@@ -1,0 +1,16 @@
+/* Button */
+button {
+  font-family: $bold;
+  font-size: 16px;
+  line-height: 2.75;
+  letter-spacing: 0;
+  color: $white;
+  border-radius: $b-radius;
+  background-color: $button-background;
+  border: 0;
+  padding: 6px 40px;
+  &:hover {
+    cursor: pointer;
+    background-color: $button-background-hover;
+  }
+}

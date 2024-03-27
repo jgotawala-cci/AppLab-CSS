@@ -1,0 +1,70 @@
+/* Variables */
+
+/* Font */
+$bold: "Poppins-Bold", sans-serif;
+$semi-bold: "Poppins-SemiBold", sans-serif;
+$regular: "Poppins-Regular", sans-serif;
+
+/* Colors */
+$white: #fff;
+$transperent-white: rgba(255, 255, 255, 0.5);
+$primary: #242f51;
+$secondary: #616368;
+$header-background: #09142e;
+$button-background: #2500f9;
+$button-background-hover: rgba(37, 0, 249, 0.66);
+$border: #e2eaed;
+$badge-background: #feaa25;
+$divider: #4b4a48;
+$toggle-border: #ebebeb;
+$card-background: #f4f7f9;
+$card-text: #999ca5;
+$button-border: #eff3f8;
+$qa-background: #f5f7fa;
+$purple: #d6cfff;
+$blue: #6783de;
+$red: #ff626e;
+$orange: #f88c6c;
+
+/* HELPERS */
+$spacing-sm: 25px;
+
+$container-width-md: 720px;
+$container-width-lg: 960px;
+$container-width-xl: 1200px;
+
+$b-radius: 50px;
+
+$screen-xs: 376px; // Extra extra small screen / phone
+$screen-sm: 576px; // Extra small screen / phone
+$screen-md: 769px; // Small screen / tablet
+$screen-lg: 1025px; // Medium screen / desktop
+$screen-xl: 1280px; // Large screen / wide desktop
+
+$transition-delay: 0.5s;
+
+//base font size
+$font-size-base: 13px;
+
+// This variable affects the headings font size classes.
+$h1-t-font-size: 37px;
+$h2-t-font-size: 24px;
+$h3-t-font-size: 24px;
+$h4-t-font-size: 18px;
+$h5-t-font-size: 16px;
+$h6-t-font-size: 16px;
+
+$h1-line-height: 1.26;
+$h2-line-height: 1.5;
+$h3-line-height: 1.41;
+$h4-line-height: 1.5;
+$h5-line-height: 1.75;
+$h6-line-height: 1.75;
+
+// Define minimum, maximum, and step values
+$min-spacing: 1;
+$max-spacing: 20;
+$step: 4;
+
+// Create an empty map to store the dynamic variables
+$spacing: ();

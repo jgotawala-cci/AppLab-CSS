@@ -1,0 +1,47 @@
+/* Header */
+.main-header {
+  @include flex-space-between;
+  img {
+    margin: 16px 0 20px;
+  }
+  @media (min-width: $screen-md) {
+    display: none;
+  }
+}
+
+.desktop-header {
+  display: none;
+  @media (min-width: $screen-md) {
+    display: flex;
+    justify-content: flex-end;
+    nav {
+      display: flex;
+      gap: 20px;
+      margin-top: 62px;
+      a {
+        color: $primary;
+      }
+    }
+    button {
+      margin: 57px 0 0 21px;
+    }
+  }
+  @media (min-width: $screen-lg) {
+    nav {
+      gap: 27px;
+      margin-top: 77px;
+    }
+    button {
+      margin: 72px 0 0 26px;
+    }
+  }
+  @media (min-width: $screen-xl) {
+    nav {
+      gap: 39px;
+      margin-top: 87px;
+    }
+    button {
+      margin: 81px 0 0 30px;
+    }
+  }
+}
